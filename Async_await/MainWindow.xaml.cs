@@ -63,7 +63,13 @@ namespace Async_await
             return Task.Run(() =>
              {
                  Thread.Sleep(rnd.Next(10000));
-                 return rnd.Next(value);
+                 // !5 = 5 * 4 * 3 * 2 * 1
+                 int res = 1;
+                 for (int i = 2; i <= value; i++)
+                 {
+                     res *= i;
+                 }
+                 return res;
              });
         }
 
