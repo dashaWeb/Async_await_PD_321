@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataCar", "DataCar\DataCar.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarUI", "CarUI\CarUI.csproj", "{C4A6D574-50F6-463A-BD94-36635E277454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCopy", "FileCopy\FileCopy.csproj", "{9A7D3B6D-ACB4-452B-88BE-B2A87182924A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileCopy", "FileCopy\FileCopy.csproj", "{9A7D3B6D-ACB4-452B-88BE-B2A87182924A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCopy_het8", "FileCopy_het8\FileCopy_het8.csproj", "{9645C44B-28BA-4A98-A364-F78C32EEFEBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9A7D3B6D-ACB4-452B-88BE-B2A87182924A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A7D3B6D-ACB4-452B-88BE-B2A87182924A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A7D3B6D-ACB4-452B-88BE-B2A87182924A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9645C44B-28BA-4A98-A364-F78C32EEFEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9645C44B-28BA-4A98-A364-F78C32EEFEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9645C44B-28BA-4A98-A364-F78C32EEFEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9645C44B-28BA-4A98-A364-F78C32EEFEBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
